@@ -53,18 +53,26 @@ const LandingPage = () => {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-blue-100 to-white py-16 sm:py-20 lg:py-24">
-        <div className="w-full max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-blue-800 mb-6">
-            Empower Your Future with Interest-Free Loans
-          </h2>
-          <p className="text-base sm:text-lg text-gray-700 mb-8">
-            Explore our loan options tailored for weddings, home construction, businesses, and education.
-          </p>
-          {/*Removed Apply Now button here */}
-        </div>
-      </section>
+   {/* Hero Section */}
+<section className="bg-gradient-to-b from-blue-100 to-white py-16 sm:py-20 lg:py-24">
+  <div className="w-full max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl sm:text-5xl font-extrabold text-blue-800 mb-6">
+      Empower Your Future with Interest-Free Loans
+    </h2>
+    <p className="text-base sm:text-lg text-gray-700 mb-8">
+      Explore our loan options tailored for weddings, home construction, businesses, and education.
+    </p>
+  
+  {/* Loan Request Button */}
+<Link
+  to="/LoanApplication"
+  className="bg-white-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-200"
+>
+  Loan Request
+</Link>
+  </div>
+</section>
+
 
       {/* Loan Categories Section */}
       <section className="py-12 sm:py-16 bg-gray-100">
