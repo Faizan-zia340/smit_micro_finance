@@ -1,5 +1,5 @@
 import { useState } from "react";
-import qrCode from ''
+
 const LoanApplication = () => {
   // State for loan details
   const [loanDetails, setLoanDetails] = useState({
